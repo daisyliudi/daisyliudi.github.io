@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  
+  <meta name="description" content="希望某一天成为让自己满意的女孩纸,优秀的女工程师!!!" />
+  
+
+  
+  
+  
+  
+  
+  
+  <title>cpp_55 code | 飞翔的小笛笛 :)</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="hljs.initHighlightingOnLoad();
+
+1.接下来的程序是书上的例题主要注意string，字符串，empty()判断是否为空，其次是string[0]；可以通过索引来找到数组的元素
+`    
+#include&amp;lt;iostream&amp;gt;
+#include&amp;lt;string&amp;gt;
+ #include&amp;lt;cctype&amp;gt;
+using namespace s">
+<meta property="og:type" content="article">
+<meta property="og:title" content="cpp_55 code">
+<meta property="og:url" content="http://yoursite.com/2016/12/04/cpp_5_code/index.html">
+<meta property="og:site_name" content="飞翔的小笛笛 :)">
+<meta property="og:description" content="hljs.initHighlightingOnLoad();
+
+1.接下来的程序是书上的例题主要注意string，字符串，empty()判断是否为空，其次是string[0]；可以通过索引来找到数组的元素
+`    
+#include&amp;lt;iostream&amp;gt;
+#include&amp;lt;string&amp;gt;
+ #include&amp;lt;cctype&amp;gt;
+using namespace s">
+<meta property="og:updated_time" content="2016-12-03T17:09:14.613Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="cpp_55 code">
+<meta name="twitter:description" content="hljs.initHighlightingOnLoad();
+
+1.接下来的程序是书上的例题主要注意string，字符串，empty()判断是否为空，其次是string[0]；可以通过索引来找到数组的元素
+`    
+#include&amp;lt;iostream&amp;gt;
+#include&amp;lt;string&amp;gt;
+ #include&amp;lt;cctype&amp;gt;
+using namespace s">
+  
+  
+    <link rel="icon" href="/css/images/favicon.ico">
+  
+  <link rel="stylesheet" href="/css/style.css">
+  
+
+  
+  <!-- baidu webmaster push -->
+  <script src='//push.zhanzhang.baidu.com/push.js'></script>
+</head>
+<body class="home blog custom-background custom-font-enabled single-author">
+  <div id="page" class="hfeed site">
+      <header id="masthead" class="site-header" role="banner">
+    <hgroup>
+      <h1 class="site-title">
+        <a href="/" title="飞翔的小笛笛 :)" rel="home">飞翔的小笛笛 :)</a>
+      </h1>
+      
+        <h2 class="site-description">
+          <a href="/" id="subtitle">希望某一天成为让自己满意的女孩纸,优秀的女工程师!!!</a>
+        </h2>
+      
+    </hgroup>
+
+    <nav id="site-navigation" class="main-navigation" role="navigation">
+            <button class="menu-toggle">菜单</button>
+            <a class="assistive-text" href="/#content" title="跳至内容">跳至内容</a><!--TODO-->
+            <div class="menu-main-container">
+                <ul id="menu-main" class="nav-menu">
+                
+                    <li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="/">主页</a></li>
+                
+                    <li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="/分类">分类</a></li>
+                
+                    <li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="/个人简历">个人简历</a></li>
+                
+                    <li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="/留言">留言</a></li>
+                
+                </ul>
+            </div>
+    </nav>
+</header>
+      <div id="main" class="wrapper">
+        <div id="primary" class="site-content"><div id="content" role="main"><article id="post-cpp_5_code" class="post-cpp_5_code post type-post status-publish format-standard hentry">
+    <!---->
+
+      <header class="entry-header">
+        
+        
+  
+    <h1 class="entry-title article-title">
+      cpp_55 code
+    </h1>
+  
+
+        
+        <div class="comments-link">
+            
+            <a href="/2016/12/04/cpp_5_code/#comments" class="leave-reply">回复</a>
+            
+            <a href="javascript:void(0);" data-url="http://yoursite.com/2016/12/04/cpp_5_code/" data-id="ciw9h523600018sr5f7wmtbzl" class="leave-reply bdsharebuttonbox" data-cmd="more">分享</a>
+        </div><!-- .comments-link -->
+      </header><!-- .entry-header -->
+
+    <div class="entry-content">
+      
+        <p><link rel="stylesheet" href="/path/to/styles/default.css"></p>
+<script src="/path/to/highlight.pack.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+<h3 id="1-接下来的程序是书上的例题"><a href="#1-接下来的程序是书上的例题" class="headerlink" title="1.接下来的程序是书上的例题"></a>1.接下来的程序是书上的例题</h3><p>主要注意string，字符串，empty()判断是否为空，其次是string[0]；可以通过索引来找到数组的元素</p>
+<p>`    </p>
+<pre><code>#include&lt;iostream&gt;
+#include&lt;string&gt;
+ #include&lt;cctype&gt;
+using namespace std;
+int main()
+{
+    string rsp;
+    do{
+        cout&lt;&lt;&quot;please enter two values&quot;&lt;&lt;endl;
+        int val1=0,val2=0;
+        cin&gt;&gt;val1&gt;&gt;val2;
+        cout&lt;&lt;&quot;The sum of&quot;&lt;&lt;val1&lt;&lt;&quot;and&quot;&lt;&lt;val2
+            &lt;&lt;&quot;=&quot;&lt;&lt;val1+val2&lt;&lt;endl
+            &lt;&lt;&quot;more？ enter yes or no:&quot;;
+        cin&gt;&gt;rsp;
+    }while(!rsp.empty()&amp;&amp;rsp[0]!=&apos;n&apos;);
+    return  0;
+}
+</code></pre><p>`</p>
+<hr>
+<h3 id="2-练习5-5-4"><a href="#2-练习5-5-4" class="headerlink" title="2.练习5.5.4"></a>2.练习5.5.4</h3><p>`</p>
+<pre><code>#include&lt;iostream&gt;
+#include&lt;string&gt;
+#include&lt;cctype&gt;
+using namespace std;
+int main()
+{  
+string is1,is2;//定义一定在外面
+ do{
+cin&gt;&gt;is1&gt;&gt;is2;
+if(is1.size()!=is2.size())
+    cout&lt;&lt;(is1.size()&lt;is2.size()?is1:is2)&lt;&lt;endl;//必要的地方加括号
+else
+    cout&lt;&lt;is1&lt;&lt;endl;//if这种设计很好哦
+return 0;
+ }while(!is1.empty()&amp;&amp;!is2.empty());//加分号
+
+  return 0;
+}
+</code></pre><p>`</p>
+<hr>
+
+      
+    </div><!-- .entry-content -->
+
+    <footer class="entry-meta">
+    <a href="/2016/12/04/cpp_5_code/">
+    <time datetime="2016-12-03T16:12:18.000Z" class="entry-date">
+        2016-12-04
+    </time>
+</a>
+    
+    
+	<div style="float: right;color: #E91E63">
+<span id="busuanzi_container_page_pv" style="display: none;">
+阅读次数 <span id="busuanzi_value_page_pv"></span>
+</span></div>
+    </footer>
+</article>
+
+
+    
+<nav class="nav-single">
+    <h3 class="assistive-text">文章导航</h3>
+    
+        <span class="nav-previous"><a href="/2016/12/04/styles/agate/" rel="prev"><span class="meta-nav">←</span> (no title)</a></span>
+    
+    
+        <span class="nav-next"><a href="/2016/12/03/今天的想法/" rel="next">今天的想法 <span class="meta-nav">→</span></a></span>
+    
+</nav><!-- .nav-single -->
+
+
+
+
+
+
+<section id="comments">
+ <!-- 多说评论框 start -->
+	<div class="ds-thread" data-thread-key="2016/12/04/cpp_5_code/" data-title="cpp_55 code" data-url="http://yoursite.com/2016/12/04/cpp_5_code/""></div>
+<!-- 多说评论框 end -->
+<!-- 多说公共JS代码 start (一个网页只需插入一次) -->
+<script type="text/javascript">
+var duoshuoQuery = {short_name:"daisyliudi"};
+	(function() {
+		var ds = document.createElement('script');
+		ds.type = 'text/javascript';ds.async = true;
+		ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+		ds.charset = 'UTF-8';
+		(document.getElementsByTagName('head')[0] 
+		 || document.getElementsByTagName('body')[0]).appendChild(ds);
+	})();
+	</script>
+<!-- 多说公共JS代码 end -->
+
+</section>
+
+
+</div></div>
+        <div id="secondary" class="widget-area" role="complementary">
+  
+    <aside id="search" class="widget widget_search"><form role="search" method="get" accept-charset="utf-8" id="searchform" class="searchform" action="//google.com/search">
+    <div>
+        <input type="text" value="" name="s" id="s" />
+        <input type="submit" id="searchsubmit" value="搜索" />
+    </div>
+</form></aside>
+  
+    
+  <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="http://music.163.com/outchain/player?type=2&id=29947420&auto=1&height=66"></iframe>
+  <aside class="widget">
+    <h3 class="widget-title">Music</h3>
+    <div class="widget-content">
+      <audio src="29947420" controls="controls"
+             style="width:100%">
+        您的浏览器不支持 audio 标签。
+      </audio>
+	 
+
+    </div>
+  </aside>
+
+  
+  
+    
+  
+    
+  <aside class="widget">
+    <h3 class="widget-title">Recents</h3>
+    <div class="widget-content">
+      <ul>
+        
+          <li>
+            <a href="/2016/12/04/highlight/">(no title)</a>
+          </li>
+        
+          <li>
+            <a href="/2016/12/04/styles/zenburn/">(no title)</a>
+          </li>
+        
+          <li>
+            <a href="/2016/12/04/styles/xt256/">(no title)</a>
+          </li>
+        
+          <li>
+            <a href="/2016/12/04/styles/xcode/">(no title)</a>
+          </li>
+        
+          <li>
+            <a href="/2016/12/04/styles/vs/">(no title)</a>
+          </li>
+        
+      </ul>
+    </div>
+  </aside>
+
+  
+    
+  
+    
+  
+</div>
+
+      </div>
+      <footer id="colophon" role="contentinfo">
+    <p>&copy; 2016 Cindy Shen
+    All rights reserved.</p>
+    <p class="right" style="margin-top: 0;"><span id="busuanzi_container_site_uv" style="display: none;">
+   亲，你是第<span id="busuanzi_value_site_uv" style="color: blue;"></span>位访客哦，哎哟，不错哦
+</span></p>
+</footer>
+    <script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"1","bdMiniList":false,"bdPic":"","bdStyle":"2","bdSize":"16"},"share":{}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script>
+
+<script src="/js/jquery-2.0.3.min.js"></script>
+
+
+  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+  <script src="/fancybox/jquery.fancybox.pack.js"></script>
+
+
+<script src="/js/script.js"></script>
+
+<script src="/js/navigation.js"></script>
+<script async src="//dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+<div id="bg"></div>
+
+
+  </div>
+   
+</body>
+</html>
